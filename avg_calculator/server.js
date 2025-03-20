@@ -60,5 +60,5 @@ app.get("/numbers/:type", async (req, res) => {
 
 // Start Server
 app.listen(PORT, () => {
-    console.log( Server running at http://localhost:${PORT});
+    console.log('Server running at http://localhost:${PORT})');
 });
